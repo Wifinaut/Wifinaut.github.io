@@ -24,12 +24,16 @@
               border: 0px;
             }
             canvas {
-                      image-rendering: optimizeSpeed;
-                      -webkit-interpolation-mode: nearest-neighbor;
-                      -ms-touch-action: none;
-                      margin: 0px;
-                      padding: 0px;
-                      border: 0px;
+               image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    padding-left: 0;
+	padding-right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    height: 100%;
+    width: 66.66vh;
             }
             :-webkit-full-screen #canvas {
                  width: 100%;
@@ -37,9 +41,11 @@
             }
             div.gm4html5_div_class
             {
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
+               position: fixed;
+               left: 50%;
+               margin-left: calc(-66.66vh/2);
+               height: 100%;
+               width: 66.66vh;
             }
             /* START - Login Dialog Box */
             div.gm4html5_login
