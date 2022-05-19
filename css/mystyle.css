@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+  
+    list-style-type: none;
+
+  overflow: hidden;
+  background-color: #333;;
+  
+  
+
+}
+li.logo{
+    float:right;
+}
+li{
+    
+    float: left;
+    
+}
+a.active{
+    background-color: rebeccapurple;
+}
+
+img{
+    margin-top:6%;
+    margin-right:10px;
+}
+li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 32px;
+    font-size:200%;
+    font-family:"PixeloidSans";
+    text-decoration: none;
+}
+@font-face{
+    font-family: "PixeloidSans";
+    src: url('/font/PixeloidSans.ttf');
+}
+li a:hover {
+    background-color: #111;
+  }
+  li a:hover.active {
+    background-color: rebeccapurple;
+  }
+
+ .contact
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+table {
+
+    float:left;
+    width:25%;
+  border: 1px solid white;
+
+    
+}
+td{
+    text-align:center;
+    font-family: "PixeloidSans";
+}
+table.contact {
+
+    float:left;
+    width:33%;
+
+    
+}
+table.contact{
+    margin-top:5%;
+    text-align:center;
+    font-family: "PixeloidSans";
+    font-size:30px;
+}
+
+a.contact{
+    font-family: "PixeloidSans";
+    color:rebeccapurple;
+    text-decoration: underline;
+}
